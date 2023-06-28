@@ -1,0 +1,10 @@
+package treinando;
+
+public class Universidade {
+	private String nomeUniversidade;
+	
+	public String informarNome(String nome) {
+		this.nomeUniversidade=nome;
+		return nome;
+	}
+}

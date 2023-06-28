@@ -1,0 +1,18 @@
+package treinando;
+
+public class Programa {
+	public static void main(String[] args) {
+		Pessoa pessoa1 = new Pessoa();
+		Pessoa pessoa2 = new Pessoa();
+		
+		pessoa1.ajustaAnoNascimento(1879);
+		pessoa1.informaNome("Albert Einstein");
+		
+		pessoa2.ajustaAnoNascimento(1643);
+		String nome2= pessoa2.informaNome("Isaac Newton");
+		
+		System.out.println(nome2+" teria "+ pessoa2.calculaIdade()+
+				" anos se ainda estivesse vivo");
+		
+	}
+}

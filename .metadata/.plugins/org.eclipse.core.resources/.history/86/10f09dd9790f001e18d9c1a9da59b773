@@ -1,0 +1,17 @@
+package bytebank;
+
+public class TestaReferencia {
+	public static void main(String[] args) {
+		Conta primeiraConta = new Conta();
+		
+		primeiraConta.saldo = 200;
+		
+		Conta segundaConta = primeiraConta;
+		
+		segundaConta.saldo = 50;
+		
+		if(primeiraConta==segundaConta) {
+			System.out.println("Sao a mesma conta");
+		}
+	}
+}

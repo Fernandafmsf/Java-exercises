@@ -1,0 +1,6 @@
+package bytebankEncapsulado;
+
+public class TestaGetSet {
+	Conta conta = new Conta();
+	cont
+}
