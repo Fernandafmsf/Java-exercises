@@ -18,6 +18,8 @@ public class TestaGerente {
 		}else {
 			System.out.println("Senha inváida");
 		}
+		
+		System.out.println(g1.getBonificacao());
 
 	}
 

@@ -1,9 +1,0 @@
-package bytebank;
-
-public class CriaConta {
-	public static void main(String[] args) {
-		Conta primeiraConta = new Conta(); // declarando a variável do tipo conta para poder acessar os seus atributos 
-		primeiraConta.saldo = 200;
-		System.out.println(primeiraConta.saldo);
-	}
-}

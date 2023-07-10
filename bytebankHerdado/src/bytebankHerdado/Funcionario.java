@@ -4,13 +4,13 @@ public class Funcionario {
 	private String nome;
 	private String cpf;
 	private double salario;
+	//salario poderia ser protected para facilitar o acesso a suas informações
+	//pelas classes filhas, mas não é comumente usado, então 
+	//pegamos o salario na classe filha atraves do gettes com o super
 	
-	public Funcionario() {
-		
-	}
 	
 	public double getBonificacao() {
-		return this.salario*0.1;
+		return this.salario*0.05;
 	}
 	
 	public String getNome() {

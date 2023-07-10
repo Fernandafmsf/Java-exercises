@@ -1,6 +1,6 @@
 package bytebankHerdado;
 
-public class Gerente extends Funcionario {
+public class Designer extends Funcionario {
 	private int senha;
 	
 	public void setSenha(int senha) {
@@ -18,7 +18,7 @@ public class Gerente extends Funcionario {
 	//método reescrito da classe mãe
 	//super é usado para pegar metodos e atributos da classe mae 
 	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario();
+		return 200;
 	}
 	//ao pegar o método bonificação da classe mae, tornamos o código mais pratico
 }
