@@ -1,6 +1,8 @@
 package bytebankHerdado;
 
-public class Funcionario {
+
+//não podemos instanciar dessa classe já que é abstrata
+public abstract class Funcionario {
 	private String nome;
 	private String cpf;
 	private double salario;
@@ -8,10 +10,8 @@ public class Funcionario {
 	//pelas classes filhas, mas não é comumente usado, então 
 	//pegamos o salario na classe filha atraves do gettes com o super
 	
-	
-	public double getBonificacao() {
-		return this.salario*0.05;
-	}
+	//sem corpo, apenas inicialização
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;

@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="bytebankComposto.Conta"/>
     <fullyQualifiedTypeName name="bytebankEncapsulado.Conta"/>
     <fullyQualifiedTypeName name="bytebankHerdado.Designer"/>
+    <fullyQualifiedTypeName name="bytebabankHerdadoConta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="bytebabankHerdadoConta.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="bytebankHerdado.EditorVideo"/>
 </qualifiedTypeNameHistroy>

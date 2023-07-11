@@ -4,7 +4,7 @@ public class TestaFuncionario {
 
 	public static void main(String[] args) {
 		
-		Funcionario nico = new Funcionario();
+		Funcionario nico = new EditorVideo();
 		
 		nico.setNome("Nico");
 		nico.setCpf("1242684");
